@@ -9,13 +9,14 @@ while True:
 	#serial.strip() # basically converts int to string
 	if input_id in id_text_opened:
 		print(input_id + " is verified")
-		door.open() #door is pseudocode
+		"***door.open() #door is pseudocode***"
 		""" 
 		1. output 0/1/true or something if found
 		2. transfer to Raspberry Pi 
 		3. REMINDER: female to female jumper wires inside Raspberry Pi 
 		4. Arduino then triggers the electric signal to the door unlock mechanism
 		"""
+		
 	else: #register number
 		print("Authentication required: ")
 		allowed = input() #from remote?? Or someone who is verified by typing yes into monitor
